@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <head>
-<link href="/normalize.css" rel="stylesheet">
+<link href='dist/css/bootstrap.css' rel='stylesheet'>
+<link rel="stylesheet" href="dist/css/main.css">
 <style>
 header {
   text-align:center;
@@ -10,12 +11,21 @@ header {
   }
   h1 {
     font-size: 70px;
+    background-color: red;
+  }
+  .greenheader {background-color:#b9e39c;
+  }
+  .pinkheader {background-color:#f2f2ea;
+    color:#b9e39c;
   }
   img {
     margin: 40px 0px 0px 0px;
     border: 7px solid white;
     border-radius: 20px;
   }
+  div {display: block;
+
+}
     
 ul {
   padding: 10px;
@@ -29,15 +39,19 @@ li {
   padding: 0px 10px 0px 10px;
   }
   </style>
+  <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+
 </head>
 <body>
   <header>
-    <img src="/assets/jeff.png">
-    <h1>Basia Lewandowska Cummings</h1>
+    <h1 class="greenheader">Header One</h1>
+    <h1 class="pinkheader">Header Two</h1>
+   <IMG HEIGHT="200px" WIDTH=200px SRC="http://mishearances.files.wordpress.com/2012/07/basia_3.jpg">
     <ul>
       <li><a href="#">About</a></li>
-      <li><a href="#">Writing</a></li>
-      <li><a href="#">Publishing</a></li>
+      <li><a href="#">Editorial</a></li>
+      <li><a href="#">Curating</a></li>
     </ul>
+   <button class='btn btn-success' >Enter</button>
   </header>
 </body>
